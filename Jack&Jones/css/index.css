@@ -1,0 +1,596 @@
+#box {  
+	width: 1200px;
+	height: 500px;
+	margin: 10px auto;
+	position: relative;
+	}
+#picbox {
+				width: 1200px;
+				height: 500px;
+				position: relative;
+				overflow: hidden;
+			}
+.bigPic {
+				width: 1200px;
+				height: 500px;
+				position: absolute;
+				left: 0;
+				top: 0;
+				background-size: 100% 100%;
+				transition: 0.5s;
+			}
+img{
+	width: 100%;
+	height: 100%;
+}			
+#box1{
+	width: 1200px;
+	height: 1000px;
+	background-color: orchid;
+	margin: 0 auto;
+}
+#before,#next,#mid {
+	width: 60px;
+	height: 20px;
+	background: gray;
+    position: absolute;
+	z-index: 8;
+	}
+#before {
+	top: 90%;
+	left: 450px;
+    }
+#mid {
+	top: 90%;
+	left: 530px;
+    }			
+#next {
+	top: 90%;
+	left: 610px;			
+}
+#btn{
+	width: 1200px;
+	height: 100px;
+	margin: 10px auto;
+}
+.btns{
+	width: 238px;
+	height: 80px;
+	border: 1px burlywood solid;
+	border-bottom: none;
+	border-top: none;
+	float: left;
+	text-align:  right;
+	font-size: 35px;
+	line-height: 80px;
+	background-repeat: no-repeat;
+	background-size: 40% 100%;
+	font-weight:200;
+}
+#btns1{
+	background-image: url(../img/hot_zaoqiu.jpg);
+}
+#btns2{
+	background-image: url(../img/hot_benzhou.png) ;
+}
+#btns3{
+	background-image: url(../img/hot_liuxing.jpg) ;
+}
+#btns4{
+	background-image: url(../img/hot_kefu.jpg) ;
+}
+#btns5{
+	background-image:  url(../img/hot_huiyuan.jpg);
+}
+.btndt{
+	width: 1200px;
+	height: 80px;
+	background-size: 40% 100%;
+	/*background-position-x: 50%;*/
+	background-repeat: no-repeat;
+	background-color:white;
+	margin: 2px auto;
+	/*border: 1px solid green;*/
+}
+.infdd{
+	width: 1200px;
+	height: 500px;
+	margin: 10px auto;
+	/*display: none;*/
+}
+#categorybox1{
+	height: 350px;
+	position: relative;
+	overflow: hidden;
+	background-color:whitesmoke;
+}
+#categorybox2{
+	overflow: hidden;
+	height: 700px;
+	background-color: gray;
+}
+#categorybox3{
+	position: relative;
+	height: 900px;
+	overflow: hidden;
+}
+#new{
+	width: 1100px;
+	height: 900px;
+	/*float: left;*/
+	/*margin: 0;*/
+	position: absolute;
+	top: 0;
+	left: 0;
+	
+}
+#new2,#new3{
+	width: 100px;
+	height: 900px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	float: right;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+#new2{
+	background-image: url(../img/re_Jackets07.png);
+}
+#new3{
+	background-image: url(../img/Sweater_text02.png)
+}
+#new_pro{
+	width: 100%;
+	height: 600px;
+	background-image: url(../img/Newproducts_01.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+#new_pro_s{
+	width: 100%;
+	height: 100%;
+}
+.news_pro{
+	width: 25%;
+	height: 300px;
+	text-align: center;
+	line-height: 150px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	float: left;
+}
+#new_img1{
+	background-image: url(../img/Newproducts_02.jpg);
+}
+#new_img2{
+		background-image: url(../img/Newproducts_03.jpg);
+}
+#new_img3{
+	background-image: url(../img/Newproducts_04.jpg);
+}
+#new_img4{
+	font-size: 20px;
+}
+#categorybox4{
+	position: relative;
+	height: 900px;
+	overflow: hidden;
+}
+#categorybox5{
+	height: 800px;
+}
+.pro:before{
+	content:'';
+	display: block;
+	width: 585px;
+	height: 150px;
+	margin-top: 200px;
+	background-position-x: 100px;
+	background-size: 50% 100%;
+	background-repeat: no-repeat;
+}
+.pro{
+	width: 585px;
+	height: 380px;
+	float: left;
+	margin: 5px;
+}
+#pros1{
+	background-image: url(../img/product_img01.jpg);
+}
+#pros1::before{
+	background-image: url(../img/product_text01.png);
+}
+#pros2{
+	background-image: url(../img/product_img02.jpg);
+}
+#pros2:before{
+	background-image: url(../img/product_text02.png);
+}
+.prot:before{
+	content:'';
+	display: block;
+	width: 100%;
+	height: 100px;
+	margin-top: 200px;
+	background-position-x: 100px;
+	background-size: 50% 100%;
+	background-repeat: no-repeat;
+}	
+.prot{
+	width: 385px;
+	height: 380px;
+	float: left;
+	margin: 5px;
+ 	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+#prot1{
+	background-image:url(../img/product_img03.png);
+}
+#prot2{
+	background-image: url(../img/product_img04.png);
+}
+#prot3{
+	background-image: url(../img/product_img05.png);
+}
+#prot1:before{
+	background-image: url(../img/product_text03.png);
+}
+#prot2:before{
+	background-image: url(../img/product_text04.png);
+}
+#prot3:before{
+	background-image: url(../img/product_text05.png);
+}
+.pro:hover,.prot:hover{
+	transform: scaleX(1.1) scaleY(1.1);
+	transition: 1s;	
+	overflow: hidden;
+}
+#categoryi1{
+	background-image: url(../img/category/category.jpg);
+}
+#categoryi2{
+	background-color: gray;
+	background-image: url(../img/Latest.png);
+}
+#categoryi3{
+	height: 100px;
+	background-image: url(../img/new.png);
+}
+#categoryi3:before,#categoryi4:before{
+	content: '';
+	display: block;
+	height: 45px;
+	width: 200px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin-left: 900px;
+	margin-top: 100px;
+	background-image: url(../img/re_more_02.png);
+}
+/*#categoryi3:hover:before{
+	background-image: url(../img/re_more.png);
+}*/
+#categoryi4{
+	height: 100px;
+	background-image: url(../img/recommend.png);
+}
+#categoryi5{
+	background-image: url(../img/product.png);
+}
+#box2 {
+	width: 1200px;
+	height: 500px;
+	margin: 10px auto;
+	background-color:burlywood ;
+	background-image: url(../img/product_vedio.png) ;
+	background-size: 100% 100%;
+}
+#box3 {
+	width: 1200px;
+	height: 500px;
+	margin: 10px auto;
+	overflow: hidden;
+	position: relative;
+	
+}
+#boxa {
+	width: 4800px;
+	height: 500px;
+	background-color:dodgerblue ;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.boxs{
+	width: 1200px;
+	height: 500px;
+	float: left;
+	transition: left 1s;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+#boxs1 {
+	background-image:url(../img/sowimg-map_190102xiuxian.jpg);
+}
+#boxs2 {
+	background-image:url(../img/sowimg-map_190105core.jpg);
+}
+#boxs3 {
+	background-image:url(../img/sowimg-map_190105MLMR.jpg);
+}
+#boxs4 {
+	background-image:url(../img/sowimg-map_190105spring.jpg);
+}
+#category{
+	width: 3600px;
+	height: 330px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	/*transition: left .5s;*/
+	margin: 10px auto;
+	background-color:orangered;
+}
+#categorys1{
+	background-color:blue;
+}
+#categorys2{
+	background-color:greenyellow;
+}
+#categorys3{
+	background-color:palevioletred;
+}
+.categorys{
+	width: 1200px;
+	height: 330px;
+	margin: 0 auto;
+	float: left;
+	overflow: hidden;			
+}
+.category1a{
+	width: 300px;
+	height: 330px;
+	float: left;
+}
+#categorya1::before,#categorya2::before,
+#categorya3::before,#categorya4::before,
+#categorya5::before,#categorya6::before,
+#categorya7::before,#categorya8::before,
+#categorya9::before,#categorya10::before,
+#categorya11::before,#categorya12::before
+{
+	content: '';
+	display: block;
+	height: 45px;
+	width: 330px;
+	background-size: 25% 100%;
+	background-color: white;
+	background-repeat: no-repeat;
+	margin: 285px 0 0 0;
+}
+#categorya1::before{
+	background-image:url(../img/category/category1_text07.png) ;
+}
+#categorya1{
+	background-color:gold;
+	background-image:url(../img/category/category1_img04.jpg) ;
+	background-size: 100% ;
+	background-repeat: no-repeat;
+}
+#categorya1:hover::before,#categorya2:hover::before,#categorya3:hover::before,
+#categorya4:hover::before,#categorya5:hover::before,#categorya6:hover::before,
+#categorya10:hover::before,#categorya11:hover::before,#categorya12:hover::before,
+#categorya7:hover::before,#categorya8:hover::before,#categorya9:hover::before
+{
+	opacity: 0.5;
+}
+#categorya1:hover,#categorya2:hover,#categorya3:hover,
+#categorya4:hover,#categorya5:hover,#categorya6:hover,
+#categorya7:hover,#categorya8:hover,#categorya9:hover,
+#categorya10:hover,#categorya11:hover,#categorya12:hover
+{		
+	transform: scaleX(1) scaleY(1.1);
+	transition: 2s;	
+	overflow: hidden;
+}
+#categorya2::before{
+	background-image:url(../img/category/category2_text01.png) ;
+}
+#categorya2{
+	background-color:darkcyan;
+	background-image:url(../img/category/category2_img01.jpg) ;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+#categorya3::before{
+	background-image:url(../img/category/category1_text01.png) ;
+}
+#categorya3{
+	background-color:firebrick;
+	background-image:url(../img/category/category1_img01.jpg) ;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+#categorya4::before{
+	background-image:url(../img/category/category3_text01.png);
+}
+#categorya4{
+	background-color:blueviolet;
+	background-image:url(../img/category/category3_img01.jpg) ;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;	
+}
+#categorya5::before{
+	background-image:url(../img/category/category1_text05.png) ;
+}
+#categorya5{
+	background-color:darkcyan;
+	background-image:url(../img/category/category1_img03.jpg) ;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;	
+}
+#categorya6::before{
+	background-image:url(../img/category/category2_text03.png) ;
+}
+#categorya6{
+	background-color:gold;
+	background-image:url(../img/category/category2_img02.jpg) ;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;	
+}
+#categorya7::before{
+	background-image:url(../img/category/category2_text05.png) ;
+}
+#categorya7{
+	background-color:firebrick;
+	background-image:url(../img/category/category2_img03.jpg) ;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;	
+}
+#categorya8::before{
+	background-image:url(../img/category/category2_text07.png);
+}
+#categorya8{
+	background-color:blueviolet;
+	background-image:url(../img/category/category2_img04.jpg) ;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;	
+}
+#categorya9::before{
+	background-image:url(../img/category/category3_text03.png);
+}
+#categorya9{
+	background-color:firebrick;
+	background-image:url(../img/category/category3_img02.jpg) ;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;	
+}
+#categorya10::before{
+	background-image:url(../img/category/category1_text03.png) ;
+}
+#categorya10{
+	background-color:darkcyan;
+	background-image:url(../img/category/category1_img02.jpg) ;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;	
+}
+#categorya11::before{
+	background-image:url(../img/category/category3_text05.png) ;
+}
+#categorya11{
+	background-color:gold;
+	background-image:url(../img/category/category3_img03.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;	
+}
+#categorya12::before{
+	background-image:url(../img/category/category3_text07.png) ;
+}
+#categorya12{
+	background-color:blueviolet;
+	background-image:url(../img/category/category3_img04.jpg) ;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;	
+}
+#category2{
+	width: 1200px;
+	height: 100%;
+	/*margin: 0 auto;*/
+	background-color: paleturquoise;
+	overflow: hidden;
+}
+.categoryd{
+	background-size: 100% ;
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+#categorys4{
+	width: 360px;
+	height: 100%;
+	background-color: #0086B3;
+	float: left;
+	margin: 0 15px 0 0;
+	background-image: url(../img/Latest_img01.jpg);
+}
+#categorys5{
+	width: 360px;
+	height: 390px;
+	background-color: greenyellow;
+	float: left;
+	background-image: url(../img/Latest_img02.jpg);
+}
+#categorys6{
+	width: 360px;
+	height: 390px;
+	background-color: greenyellow;
+	float: left;
+	margin: 0 15px 0 15px;
+	background-image: url(../img/Latest_img03.jpg);
+}
+#categorys7{
+	width: 750px;
+	height: 300px;
+	background-color: greenyellow;
+	float: left;
+	margin:  10px 0 0 10px;
+	background-image: url(../img/Latest_img04.jpg);
+}
+#categorys4::before,#categorys5::before,
+#categorys6::before,#categorys7::before{
+	content: '';
+	display: block;
+	height: 150px;
+	width: 100%;
+	background-size:  80% 100%;
+	background-color: white;
+	background-repeat: no-repeat;
+}
+#categorys4::before{
+	content: '';
+	margin: 550px auto;
+	background-image: url(../img/Latest_text05.png);
+}
+#categorys5::before{
+	content: '';
+	margin: 240px auto;
+	background-image: url(../img/Latest_text06.png);
+}
+#categorys6::before{
+	content: '';
+	margin: 240px auto;
+	background-image: url(../img/Latest_text07.png);
+}
+#categorys7::before{
+	content: '';
+	width: 300px;
+	height: 100%;
+	background-size:  50% 50%;
+	background-image: url(../img/Latest_text11.png);
+	background-position:75px 75px ;
+}
+#categorys4:hover::before,#categorys5:hover::before,
+#categorys6:hover::before,#categorys7:hover::before{
+	opacity: 0.5;
+}
+#categorys4:hover,#categorys5:hover,
+#categorys6:hover,#categorys7:hover{
+	transform: scaleX(1) scaleY(1.1);
+	transition: 1s;	
+	overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+

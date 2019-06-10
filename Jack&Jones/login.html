@@ -1,0 +1,80 @@
+<!DOCTYPE html> 
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>登录</title>
+		<script type="text/javascript" src="js/jquery.js" ></script>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="css/demo.css"/>
+		<link rel="stylesheet" type="text/css" href="css/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="css/header.css"/>
+		<link rel="stylesheet" type="text/css" href="css/bottom.css"/>
+		<link rel="stylesheet" type="text/css" href="css/login.css"/>
+		<style></style>
+	</head>
+	<body>
+		<header></header>
+		<div id="bottom_bg">
+			<div id="login_blank">
+				<div id="login_top">
+					手机登录
+				</div>
+				<div id="login_mid">
+					<div id="login_mid1" class="loin_mids">
+						<ul id="ph">
+							<li id="phno1"></li>
+							<li id="phno2"><input type="text" placeholder="请输入手机号登录" id="phin"/> </li>
+							<li id="phno5"><span id="alter">请输入正确的手机号</span> </li>
+						
+						</ul>
+					</div>
+					<div id="login_mid2"class="loin_mids">
+						<ul id="ph1">
+							<li id="phno3"></li>
+							<li id="phno4"><input type="text" placeholder="请输入正确答案" id="phin"/></li>
+						</ul>
+						<div id="question">点击获取问题</div>
+						
+					</div>
+					<div id="login_mid3"class="loin_mids">
+						<input type="text" placeholder="请输入短信验证码" id="phiny"/>
+						<button id="yzm">获取验证码</button>
+					</div>
+					<button id="login_mid4"class="loin_mids">登录/注册</button>
+						
+					
+				</div>
+				<div id="login_bot">
+					若您尚未注册会员，可先输入手机号，获取并再次输入动态验证码，登录同时将注册为会员。
+				</div>
+			</div>
+		</div>
+		
+		<bottom></bottom>
+		<script>
+			$('header').load("header.html");
+			$('bottom').load("bottom.html" );
+			var ophin = document.getElementById('phin')	
+			var reg1 = /^1\d{10}$/
+			ophin.onblur = function  () {
+				var y = reg1.test(ophin.value)
+				var oc = $('#alter').attr('oc','0')
+				if (oc==0,y==false) {
+					$('#alter').attr('oc','1')
+					alter.style.display = 'block'
+				}else if(oc==1,y=true){
+					$('#alter').attr('oc','0')
+					alter.style.display = 'none'
+				}
+				 if(oc==0,y==true){
+					$('#alter').attr('oc','1')
+					alter.style.display = 'none'
+				}else if(oc==1,y==false){
+					$('#alter').attr('oc','0')
+					alter.style.display = 'block'
+				}
+			}
+		</script>
+	</body>
+</html>

@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html> 
+	<head>
+		<meta charset="utf-8" />
+		<title>所有商品</title>
+		<link rel="stylesheet" type="text/css" href="css/header.css"/>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="css/demo.css"/>
+		<link rel="stylesheet" type="text/css" href="css/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<!--<link rel="stylesheet" type="text/css" href="css/allgoods.css"/>-->
+		<link rel="stylesheet" type="text/css" href="css/bottom.css"/>
+		<link rel="stylesheet" type="text/css" href="css/login.css"/>
+		<script src="js/jquery.js" ></script>
+		<!--<script  src="js/allgoods.js" ></script>-->
+		<script  src="js/allgoodsinf.js" ></script>
+		<style>
+			*{
+				background-size: 100% 100%;
+				background-repeat: no-repeat;
+			}
+			#top_add{
+				width: 1200px;
+				height: 10px;
+				margin: 5px auto;
+			}
+			#top_img{
+				width: 1200px;
+				height: 400px;
+				margin: 10px auto;
+				z-index: 9;
+			}
+			#all{
+					width: 1200px;
+					height: 3000px;
+			}
+			#left_mune{
+				width: 200px;
+				height: 100%;
+				background-color:whitesmoke;
+				float: left;
+			}
+			#news{
+				height: 355px;
+				background-color:antiquewhite;
+			}
+			.tittles{
+				width: 200px;
+				height: 25px;
+				text-align: center;
+				margin: 5px auto;
+				line-height: 25px;
+				background-color:red;
+			}
+			.intr{
+				width: 200px;
+				height: 25px;
+				text-align: center;
+				margin: 5px auto;
+				line-height: 25px;
+				background-color:whitesmoke;
+			}
+			.intrs{
+				width: 200px;
+				text-align: center;
+				margin: 5px auto;
+				line-height: 25px;
+				background-color:antiquewhite;
+				display: none;
+				transition :  0.5s;
+			}
+			#intrs1{
+				height: 385px;
+			}
+			#intrs2{
+				height: 85px;
+			}
+			#intrs3{
+				height: 55px;
+			}
+			#intrs4{
+				height: 115px;
+			}
+			#intrs5{
+				height: 30px;
+			}
+			#intrs6{
+				height: 265px;
+			}
+			#intrs7{
+				height: 145px;
+			}
+			#goods_left{
+				width: 1000px;
+				height: 100%;
+				float: right;
+			}
+			#goods_top{
+				width: 1000px;
+				height: 1.2%;
+				background-color: whitesmoke;
+			}
+			#goods_num{
+				width: 50%;
+				height: 100%;
+				float: left;
+			}
+			#goods_nums{
+				width: 13%;
+				height: 100%;
+				text-align: center;
+				line-height: 37px;
+				float: left;
+			}
+			#pric{
+				width: 60px;
+				height: 20px;
+				float: left;
+				margin: 8px ;
+				border: 1px solid gray;
+			}
+			#count{
+				width: 20%;
+				height: 100%;
+				float: right;
+				text-align: right;
+				line-height:30px;
+			}
+			#goods_box{
+				width: 100%;
+				padding: 15px;
+			}
+			.goods{		
+				width: 300px;
+				height: 450px;
+				padding: 3px;
+				border: 1px solid black;
+				background: ghostwhite;
+				float: left;
+				margin: 5px;
+			}
+			.goods h4{
+				line-height: 28px;
+			}
+			.gPic{
+				width: 300px;
+				height: 350px;				
+			}
+			.gInf{
+				font-size: 12px;
+				color: darkgray;
+				line-height: 18px;
+			}
+			.bottom{
+				font-size: 12px;
+				color: deeppink;
+				height:30px ;
+									
+			}
+			.price{
+				font-size: 22px;
+				color: deeppink;
+				float: left;
+				display: inline-block;				
+			}
+			.buy{
+				font-size: 13px;
+				color: white;				
+				border-radius:3px;
+				background: deeppink;
+				float: right;
+				padding: 5px 10px;
+				margin-top: 3px;
+			}
+		</style>
+	</head>
+	<body>
+		<header></header>
+		<div id="top_add">首页/所有商品</div>
+		<div id="top_img"><img src="img/allGoodsList.jpg"/></div>	
+		<div id="all">
+			<div id="left_mune">
+					<div id="tittles1" class="tittles"><b>新品到店</b></div>
+					<ul id="news" class="intrs">
+						<li id="news1" class="intr"><a href="">全部-新品到店</a></li>
+						<li id="news2" class="intr"><a href="">1月13日上新</a></li>
+						<li id="news3" class="intr"><a href="">1月8日上新</a></li>
+						<li id="news4" class="intr"><a href="">1月4日上新</a></li>
+						<li id="news5" class="intr"><a href="">1月1日上新</a></li>
+						<li id="news6" class="intr"><a href="">12月28日上新</a></li>
+						<li id="news7" class="intr"><a href="">12月23日上新</a></li>
+						<li id="news8" class="intr"><a href="">12月19日上新</a></li>
+						<li id="news9" class="intr"><a href="">12月12日上新</a></li>
+						<li id="news0" class="intr"><a href="">12月7日上新</a></li>
+						<li id="news10" class="intr"><a href="">12月4日上新</a></li>
+						<li id="news11" class="intr"><a href="">11月30日上新</a></li>
+					</ul>
+					<div id="tittles1" class="tittles"><b>商场同款新降5折起</b></div>
+					<ul id="intrs1" class="intrs">
+						<li class="intr">全部-商场同款新降5折起</li>
+						<li class="intr">五折专区</li>
+						<li class="intr">七折专区</li>
+						<li class="intr">五折羽绒服/棉服</li>
+						<li class="intr">五折毛呢大衣</li>
+						<li class="intr">五折牛仔裤</li>
+						<li class="intr">五折针织衫</li>
+						<li class="intr">五折外套</li>
+						<li class="intr">五折休闲裤</li>
+						<li class="intr">五折衬衫</li>
+						<li class="intr">五折卫衣</li>
+						<li class="intr">五折鞋靴</li>
+						<li class="intr">五折配饰</li>
+					</ul>	
+					<div id="tittles2" class="tittles"><b>线上专享款</b></div>
+					<ul id="intrs2" class="intrs">
+						<li class="intr">全部-线上专享款</li>
+						<li class="intr">全部专享款</li>
+						<li class="intr">五折专区</li>
+					</ul>
+					<div id="tittles3"class="tittles"><b>羽绒服/棉服</b></div>
+					<ul id="intrs2" class="intrs">
+						<li class="intr">全部-羽绒服/棉服</li>
+						<li class="intr">羽绒服</li>
+						<li class="intr">棉服</li>
+					</ul>
+					<div class="tittles"><b>毛呢大衣</b></div>
+					<ul id="intrs3" class="intrs">
+						<li class="intr">全部-毛呢大衣</li>
+						<li class="intr">精选毛呢</li>
+					</ul>
+					<div class="tittles"><b>外套</b></div>
+					<ul id="intrs2" class="intrs">
+						<li class="intr">全部-外套</li>
+						<li class="intr">牛仔/夹克外套</li>
+						<li class="intr">长款外套</li>
+					</ul>
+					<div class="tittles"><b>针织衫</b></div>
+					<ul id="intrs3" class="intrs">
+						<li class="intr">全部-针织衫</li>
+						<li class="intr">内搭针织衫</li>
+					</ul>	
+					<div class="tittles"><b>牛仔裤</b></div>
+					<ul id="intrs4" class="intrs">
+						<li class="intr">全部-牛仔裤</li>
+						<li class="intr">含莱卡弹力牛仔裤</li>
+						<li class="intr">锥腿牛仔裤</li>
+						<li class="intr">轻薄牛仔裤</li>
+					</ul>	
+					<div class="tittles"><b>休闲裤</b></div>
+					<ul id="intrs2" class="intrs">
+						<li class="intr">全部-休闲裤</li>
+						<li class="intr">轻薄休闲裤</li>
+						<li class="intr">含莱卡弹力休闲裤</li>
+					</ul>		
+					<div class="tittles"><b>卫衣</b></div>
+					<ul id="intrs3" class="intrs">
+						<li class="intr">全部-卫衣</li>
+						<li class="intr">潮流卫衣</dd>
+					</ul>
+					<div class="tittles"><b>衬衫</b></div>
+					<ul id="intrs4" class="intrs">
+						<li class="intr">全部-衬衫</li>
+						<li class="intr">格纹/条纹衬衫</li>
+						<li class="intr">纯色/牛仔衬衫</li>
+						<li class="intr">短袖衬衫</li>
+					</ul>
+					<div class="tittles"><b>西服</b></div>
+					<ul id="intrs3" class="intrs">
+						<li class="intr">全部-西服</li>
+						<li class="intr">格调西服</li>
+					</ul>
+					<div class="tittles"><b>皮衣/PU</b></div>
+					<ul id="intrs5" class="intrs">
+						<li class="intr">全部-皮衣/PU</li>
+					</ul>
+					<div class="tittles"><b>男鞋</b></div>
+					<ul id="intrs2" class="intrs">
+						<li class="intr">全部-男鞋</li>
+						<li class="intr">休闲运动鞋</li>
+						<li class="intr">板鞋</li>
+					</ul>
+					<div class="tittles"><b>配饰</b></div>
+					<ul id="intrs6" class="intrs">
+						<li class="intr">全部-配饰</li>
+						<li class="intr">内裤/袜子</li>
+						<li class="intr">腰带/皮带</li>
+						<li class="intr">背包/提包</li>
+						<li class="intr">帽子</li>
+						<li class="intr">围巾</li>
+						<li class="intr">手套</li>
+						<li class="intr">太阳镜/眼镜</li>
+						<li class="intr">领带/领结</li>
+					</ul>
+					<div class="tittles"><b>产品系列</b></div>
+					<ul id="intrs7" class="intrs">
+						<li class="intr">全部-产品系列</li>
+						<li class="intr">MLMR系列</li>
+						<li class="intr">Core系列</li>
+						<li class="intr">Essential系列</li>
+						<li class="intr">Jeans系列</li>
+					</ul>
+					<div class="tittles"><b>2018足球俱乐部系列</b></div>
+					<ul id="intrs5" class="intrs">
+						<li class="intr">全部-2018足球俱乐部系列</li>
+					</ul>
+			</div>
+			<div id="goods_left">
+				<div id="goods_top">
+					<div id="goods_num">
+						<div id="goods_nums"><span>按人气</span></div>
+						<span id="goods_nums">按销量</span>
+						<span id="goods_nums">新品</span>
+						<span id="goods_nums">按价格</span>	
+						<input type="text"  id="pric" placeholder="最低价" /> 
+						<div style="text-align: center;line-height: 36px;width: 10px;height: 100%;float: left;">
+							—
+						</div>
+						<input type="text"  id="pric" placeholder="最高价" />
+						<button style="width: 60px;height: 25px;margin: 6px;border: 1px solid silver;">确定</button>
+					</div>
+					<div id="count">共<span id="counts">0</span>件商品</div>
+				</div>
+				<div id="goods_box"></div>
+			</div>
+		</div>	
+		<bottom></bottom>
+	</body>
+		<script>
+			$('header').load("header.html");
+			$('bottom').load("bottom.html" );
+			var otitles = document.getElementsByClassName('tittles')
+			var ointrs = document.getElementsByClassName('intrs')
+			var otitles1 = document.getElementById('tittles1')
+			var ointr = document.getElementById('intrs1')
+			for (var i = 0;i<otitles.length;i++) {
+				bind(i);
+			}
+			function bind (index) {
+				otitles[index].onclick =function  () {
+//					ointrs[index].style.transition = 'height 2s ease-in-out 0.5s'
+					
+					if (ointrs[index].style.display =='block'  ){
+						ointrs[index].style.display =  'none'
+						
+					} else{
+						ointrs[index].style.display ='block'
+					}
+				}
+			}
+			var obox = document.getElementById('goods_box')
+			var  ocounts = document.getElementById('counts')
+			var str = ''
+			for(var i = 0;i<goodsinf.length;i++){
+				 str = `<div class="goods">
+							<img src="${goodsinf[i].src}" class="gPic"/>
+							<h4 class="gName">${goodsinf[i].name}</h4>
+							<p class="gInf">${goodsinf[i].inf}</p>
+							<div class="bottom">
+								<span class="price">${goodsinf[i].price}</span>
+								<div class="buy">立即购买</div>
+							</div>			
+						</div>`
+				obox.innerHTML += str
+				ocounts.innerHTML = goodsinf.length
+			}			
+			obox.onclick=function(){  
+   				 window.location.href="goodsdetel.html";            
+ 			}
+		</script>
+	
+	
+</html>

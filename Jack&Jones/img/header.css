@@ -1,0 +1,190 @@
+*{
+	margin:0 auto;
+	padding: 0;
+}
+.w{
+	width: 100%;
+}
+header img{
+	
+    margin: 0 auto;  
+	width: 100%;
+}
+header{
+	width: 100%;
+	z-index: 9;
+}
+/*#head{
+	width: 100%;
+	height: 90px;
+	top: 0;
+    left: 0;
+	border:1px solid black;
+}*/
+#top1{
+	/*margin: 0 700px 0 70px;*/
+	/*background-color: blue;*/
+}
+#top2{
+	/*position: fixed;
+	left: 100px;
+	top: 0;
+	/*background-color: gold;*/
+	/*margin: 0 10px;*/
+}
+.top{
+	width: 1280px;
+	height: 45px;
+	background-color: white;
+	border-bottom: 1px solid burlywood;
+}
+#searchbox{
+	width: 250px;
+	height: 30px;
+	float: left;
+	border:1px solid gainsboro;
+	border-radius: 8px;
+	opacity: 0 ;
+	margin:10px
+	
+}
+#search{
+	width: 215px;
+	height: 28px;
+	float: left;
+	border:1px solid gainsboro;
+	border-radius: 8px 0 0  8px;
+}
+#hbtnbox{
+	width: 690px;
+	height: 45px;
+	/*border:1px solid black;*/
+	float: right;
+	/*background-color: green;*/
+}
+.btna{
+	width: 100px;
+	height: 45px;
+	text-align: center;
+	line-height: 45px;
+	float: left;
+
+}
+.icon{
+	width: 20px;
+	height: 35px;
+	text-align: center;
+	line-height: 45px;
+	margin:5px
+	
+}
+.count{
+	height: 20px;
+	text-align: center;
+	line-height: 20px;
+	margin:17px 0
+	
+}
+#t1{
+	width: 240px;
+	height: 45px;
+	background-image: url(../img/j&jtestlogo1.png);
+	background-size: 100%;
+}
+#hbtnbox2{
+	width: 900px;
+	height: 45px;
+	/*border:1px solid black;*/
+	float: left;
+	/*background-color: green;*/
+}
+#btn6{
+	/*position: relative;*/
+	
+}
+.btnb{
+	width: 110px;
+	height: 45px;
+	text-align: center;
+	line-height: 45px;
+	float: left;
+	font-size: 20px;
+}
+.two{
+	width: 100%;
+	height: 400px;
+	text-align: center;
+	background-color: whitesmoke;
+	display: none;
+	position: absolute;
+	top:90px;
+	left: 0;
+	z-index: 9;
+}
+.btnb:nth-child(2):hover~#two1 {
+	display: block;
+}
+.btnb:nth-child(3):hover~#two2 {
+	display: block;
+}
+.btnb:nth-child(4):hover~#two3 {
+	display: block;
+}
+.btnb:nth-child(5):hover~#two4 {
+	display: block;
+}
+.two:hover {
+	display: block;
+}
+.two-a{
+	width: 200px;
+	height: 50px;
+	margin: 5px;
+}
+.two-b{
+	width: 400px;
+	height: 330px;
+	margin: 30px 30px;
+}
+.two-li{
+	width: 200px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+}
+#img{
+	background-size: 100% 100%;
+	background-image: url(../img/goodsAll.jpg);
+}
+#img2{
+	background-size: 100% 100%;
+	background-image: url(../img/goodsNew.jpg);
+}
+#img3{
+	background-size: 100% 100%;
+	background-image: url(../img/edtorial.jpg);
+}
+#img4{
+	background-size: 100% 100%;
+	background-image: url(../img/productSeries.jpg);
+}
+#top{
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	border: 1px solid beige;
+	position: fixed;
+	right: 30px;
+	top: 80%;
+	z-index: 9;
+	border: 1px gray solid;
+}
+/*#top23{
+	width: 200px;
+	height: 5000px;
+	background-color: greenyellow;
+	overflow: hidden;
+	margin:0 auto;
+	
+}*/

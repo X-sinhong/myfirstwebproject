@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html> 
+	<head>
+		<meta charset="utf-8" />
+		<title>JACK&JONES中国官方购物网站</title>
+		<link rel="stylesheet" href="css/header.css"/>
+		<link rel="stylesheet" type="text/css" href="css/bottom.css"/>
+		<link rel="stylesheet" type="text/css" href="css/demo.css"/>
+		<link rel="stylesheet" type="text/css" href="css/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<script type="text/javascript" src="js/jquery.js" ></script>
+		<!--<script type="text/javascript" src="js/index.js" ></script>-->
+		<style></style>
+	</head>
+	<body>
+		<header></header>
+		<div id="box">
+			<div id="before" class="picBtn hang"></div>
+			<div id="mid" class="picBtn hang"></div>
+			<div id="next" class="picBtn hang"></div>
+			<ul id="picbox">
+				<li class="bigPic"><img src="img/banner_tab_1.jpg"  /></li>
+				<li class="bigPic"><img src="img/banner_tab_2.jpg"  /></li>
+				<li class="bigPic"><img src="img/banner_tab_3.jpg"  /></li>
+			</ul>
+		</div>
+		<ul id="btn">
+			<li id="btns1" class="btns">冬季新品</li>
+			<li id="btns2" class="btns">本周上新</li>
+			<li id="btns3" class="btns">流行趋势</li>
+			<li id="btns4" class="btns"><a href="kefu.html">客服中心</a></li>
+			<li id="btns5" class="btns">会员中心</li>
+		</ul>
+		<dl>
+			<!--品类-->
+        	<a href="#categoryi1"><dt id="categoryi1" class="btndt">1</dt></a>
+        	<dd id="categorybox1" class="infdd">
+        		<ul id="category">
+        			<li id="categorys" class="categorys">
+        				<div id="categorya1" class="category1a"></div>
+        				<div id="categorya2" class="category1a"></div>
+        				<div id="categorya3" class="category1a"></div>
+        				<div id="categorya4" class="category1a"></div>
+        			</li>
+        			<li id="categorys" class="categorys">
+        				<div id="categorya5" class="category1a"></div>
+        				<div id="categorya6" class="category1a"></div>
+        				<div id="categorya7" class="category1a"></div>
+        				<div id="categorya8" class="category1a"></div>
+        			</li>
+        			<li id="categorys" class="categorys">
+        				<div id="categorya9" class="category1a"></div>
+        				<div id="categorya10" class="category1a"></div>
+        				<div id="categorya11" class="category1a"></div>
+        				<div id="categorya12" class="category1a"></div>
+        			</li>
+        		</ul>
+        	</dd>
+        	<!--最新潮装-->
+        	<a href="#categoryi2"><dt id="categoryi2" class="btndt"></dt></a>
+        	<dd id="categorybox2"class="infdd">
+        		<ul id="category2">
+        			<li id="categorys4" class="categoryd"></li>
+        			<li id="categorys5" class="categoryd"></li>
+        			<li id="categorys6" class="categoryd"></li>
+        			<li id="categorys7" class="categoryd"></li>
+        		</ul>
+        	</dd>
+        	<div id="box2"></div>
+        	<!--新品到店-->
+        	<a href="#categoryi3"><dt id="categoryi3" class="btndt"></dt></a>
+        	<dd id="categorybox3"class="infdd">
+        		<div id="new">
+        			<div id="new_pro"></div>
+        			<ul id="new_pro_s">
+        				<li class="news_pro" id="new_img1"></li>
+        				<li class="news_pro" id="new_img2"></li>
+        				<li class="news_pro" id="new_img3"></li>
+        				<li class="news_pro" id="new_img4"><p>潮流宽松连帽卫衣</p><span>$99.9</span></li>
+        			</ul>
+        		</div>
+        		<div id="new2"></div>
+        	</dd>
+        	<!--爆款推荐-->
+        	<a href="#categoryi4">
+        		<dt id="categoryi4" class="btndt"></dt></a>
+        	<dd id="categorybox4"class="infdd">
+        		<div id="new">
+        			<div id="new_pro"></div>
+        			<ul id="new_pro_s">
+        				<li class="news_pro" id="new_img1"></li>
+        				<li class="news_pro" id="new_img2"></li>
+        				<li class="news_pro" id="new_img3"></li>
+        				<li class="news_pro" id="new_img4"><p>潮流宽松连帽卫衣</p><span>$99.9</span></li>
+        			</ul>
+        		</div>
+        		<div id="new3"></div>
+        	</dd>
+        	<div id="box3">
+        		<ul id="boxa">
+        			<li id="boxs1" class="boxs"></li>
+        			<li id="boxs2" class="boxs"></li>
+        			<li id="boxs3" class="boxs"></li>
+        			<li id="boxs4" class="boxs"></li>
+        		</ul>
+        		
+        	</div>
+        	<!--产品系列-->
+        	<a href="#categoryi5">
+        		<dt id="categoryi5" class="btndt"></dt></a>
+        	<dd id="categorybox5"class="infdd">
+        		<div id="categoryboxs1" class="categoryboxs">
+        			<div id="pros1" class="pro"></div>
+        			<div id="pros2" class="pro"></div>
+        		</div>
+        		<div id="categoryboxs2" class="categoryboxs">
+        			<div id="prot1" class="prot"></div>
+        			<div id="prot2" class="prot"></div>
+        			<div id="prot3" class="prot"></div>
+        		</div>
+        	</dd>  
+        </dl>
+		</div>
+		<bottom></bottom>
+		<script>
+			$('header').load("header.html");
+			$('bottom').load("bottom.html" );
+			var opicbtn = document.getElementsByClassName('picBtn');
+			var obigpic= document.getElementsByClassName('bigPic');
+			var obtndt = document.getElementsByClassName('btndt');
+        	var oinfdd = document.getElementsByClassName('infdd');
+//			var oBefore = document.getElementById('before');
+//			var oNext = document.getElementById('next');
+			slider () 
+			//轮播
+			function slider () {
+				inter();
+				var inow = 0;
+				var timer;
+				for (var i = 0;i<opicbtn.length;i++) {
+					bind(i);
+				}
+				//点击切换
+				function bind (index) {
+					opicbtn[index].onclick =function  () {
+						clearInterval(timer); 
+						inow = index;
+						changepic(index);
+						inter();
+					}
+				}
+				//图片切换
+				function changepic(index) {
+					
+					for (var j = 0;j<obigpic.length;j++){
+						obigpic[j].style.opacity = 0 ;
+						if (j==index){
+							obigpic[index].style.opacity = 1 ;
+//						opicbtn[index].style.backgroundColor = 'cornflowerblue'	
+						}else{
+//							opicbtn[index].style.backgroundColor = 'gray'
+						}
+					}
+				}
+				//计时器
+				function inter() {
+					 timer = setInterval(function(){
+						inow++;
+						if (inow>2) {
+							inow = 0;
+						}
+						changepic(inow);
+					},2000)
+				}
+			}
+			//
+			for (var i = 0;i<obtndt.length;i++) {
+				bind(i);
+			}
+			//品类显示隐藏
+			function bind (index) {
+				obtndt[index].onclick =function  () {
+					if (oinfdd[index].style.display =='block'  ){
+						oinfdd[index].style.display =  'none'
+					} else{
+						oinfdd[index].style.display ='block'
+					}
+					
+				}
+			}
+			//品类轮播
+			var ocategorys= document.getElementsByClassName('categorys')
+			var ocategory= document.getElementById('category')
+			var inow = 0
+				setInterval(function  () {
+					inow++
+					if (inow>ocategorys.length-1) {
+						inow = 0
+						ocategory.style.transition = ''
+					}
+					else{
+						ocategory.style.transition = 'left 1s'
+					}
+					changepic ()
+				},5000)
+				function  changepic (){
+					var nowleft = -inow*1200+'px'
+					ocategory.style.left = nowleft
+					
+				}
+				//轮播
+			var oboxs= document.getElementsByClassName('boxs')
+			var oboxa= document.getElementById('boxa')
+			var inowl = 0;
+				setInterval(function  () {
+					inowl++;
+					if (inowl>oboxs.length-1) {
+						inowl = 0;
+						oboxa.style.transition ='';
+					}
+					else{
+						oboxa.style.transition ='left 1s';
+					}
+					changepicl ()
+				},3000)
+				function  changepicl (){
+					var nowleftl = -inowl*1200+'px'
+					oboxa.style.left = nowleftl
+					
+		}
+		</script>
+	</body>
+</html>

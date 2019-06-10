@@ -1,0 +1,167 @@
+*{ 
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+#top_add{
+	width: 1200px;
+	height: 10px;
+	margin: 5px auto;
+}
+#top_img{
+	width: 1200px;
+	height: 400px;
+	margin: 5px auto;
+	background-image: url(../img/allGoodsList.jpg);
+}
+#all{
+		width: 1200px;
+		height: 3000px;
+}
+#left_mune{
+	width: 200px;
+	height: 100%;
+	background-color:whitesmoke;
+	float: left;
+}
+#news{
+	height: 355px;
+	background-color:antiquewhite;
+}
+.tittles{
+	width: 200px;
+	height: 25px;
+	text-align: center;
+	margin: 5px auto;
+	line-height: 25px;
+	background-color:antiquewhite;
+}
+.intr{
+	width: 200px;
+	height: 25px;
+	text-align: center;
+	margin: 5px auto;
+	line-height: 25px;
+	background-color:antiquewhite;
+
+	/*display: none;*/
+}
+.intrs{
+	width: 200px;
+	text-align: center;
+	margin: 5px auto;
+	line-height: 25px;
+	background-color:antiquewhite;
+	display: none;
+	/*transition: .5s;*/
+}
+#intrs1{
+	height: 385px;
+}
+#intrs2{
+	height: 85px;
+}
+#intrs3{
+	height: 55px;
+}
+#intrs4{
+	height: 115px;
+}
+#intrs5{
+	height: 30px;
+}
+#intrs6{
+	height: 265px;
+}
+#intrs7{
+	height: 145px;
+}
+
+#goods_left{
+	width: 1000px;
+	height: 100%;
+	float: right;
+	background-color: orange;
+}
+#goods_top{
+	width: 1000px;
+	height: 1.2%;
+	background-color: whitesmoke;
+}
+#goods_num{
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+#goods_nums{
+	width: 13%;
+	height: 100%;
+	text-align: center;
+	line-height: 37px;
+	/*margin: 0 10px;*/
+	float: left;
+}
+#pric{
+	width: 60px;
+	height: 20px;
+	float: left;
+	margin: 8px ;
+	border: 1px solid gray;
+}
+#count{
+	width: 20%;
+	height: 100%;
+	float: right;
+	text-align: right;
+	line-height:30px;
+}
+#goods_box{
+	width: 100%;
+	box-sizing: border-box;
+	padding: 20px;
+	background: yellow;
+	overflow: hidden;
+}
+.goods{		
+	width: 300px;
+	height: 400px;
+	padding: 3px;
+	/*background: orange;*/
+	border: 1px solid black;
+	background: ghostwhite;
+	float: left;
+	margin: 10px;
+}
+.goods h4{
+	line-height: 28px;
+}
+.gPic{
+	width: 300px;
+	height: 350px;				
+}
+.gInf{
+	font-size: 12px;
+	color: darkgray;
+	line-height: 18px;
+}
+.bottom{
+	font-size: 12px;
+	color: deeppink;
+	/*background: green;*/	
+	height:30px ;
+						
+}
+.price{
+	font-size: 22px;
+	color: deeppink;
+	float: left;
+	display: inline-block;				
+}
+.buy{
+	font-size: 13px;
+	color: white;				
+	border-radius:3px;
+	background: deeppink;
+	float: right;
+	padding: 5px 10px;
+	margin-top: 3px;
+}

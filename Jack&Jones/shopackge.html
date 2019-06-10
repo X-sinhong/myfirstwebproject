@@ -1,0 +1,98 @@
+<!DOCTYPE html> 
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>购物袋</title>
+		<link rel="stylesheet" type="text/css" href="css/header.css"/>
+		<link rel="stylesheet" type="text/css" href="css/bottom.css"/>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="css/demo.css"/>
+		<link rel="stylesheet" type="text/css" href="css/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="css/shoppackge.css"/>
+		
+		<script type="text/javascript" src="js/jquery.js" ></script>
+	</head>
+	<body>
+		<header></header>
+		<div id="top_add">首页/购物袋</div>
+		<div id="ti">购物袋</div>
+		<ul id="step">
+			<li id="step1" class="steps">1.查看购物袋
+				<section class="ste_bot"></section>			
+			</li>
+			<li id="step2" class="steps">2.填写并核对订单
+				<section class="ste_bot"></section>			
+			</li>
+			<li id="step3" class="steps">3.提交订单
+				<section class="ste_bot"></section>			
+			</li>
+		</ul>
+		<div id="zhaoyao">
+			<span style="font-size: 20px;">
+				订单摘要
+			</span>
+			<div id="re">
+				<span id="countsa" >0</span>个结果
+			</div>
+		</div>
+		<ul id="goods_ti">
+			<li class="goods_tis"><input type="checkbox" name="" id="" value="" />全选</li>
+			<li class="goods_tis">商品描述</li>
+			<li class="goods_tis">颜色</li>
+			<li class="goods_tis">尺码</li>
+			<li class="goods_tis">数量</li>
+			<li class="goods_tis">单价</li>
+			<li class="goods_tis">总价</li>
+		</ul>
+		<div id="goods_new">
+			<input type="checkbox" name="" id="" value="" />商品
+			<div id="new_goods">	
+				<input type="checkbox" name="" id="" value="" style="float: left;position: absolute;top:50%;"/>
+				<div id="new_r">
+					<img src="img/218301501A06_p3.jpg"style="float: left;"/>
+				</div>
+				<div id="new_top">
+					<span id="new_tops" class="goods_tisl">时尚潮流棉翻领男装秋季牛仔夹克外套</span>
+					<li id="new_tops" class="goods_tisl">
+						<select name="">
+							<option value="">E37牛仔蓝</option>
+						</select>
+					</li>
+					<li id="new_tops" class="goods_tisl">
+						<select name="">
+							<option value="">165/88A/XS</option>
+							<option value="">170/92A/S</option>
+							<option value="">175/96A/M</option>
+							<option value="">180/100A/L</option>
+							<option value="">185/104A/XL</option>
+							<option value="">190/108A/XXL</option>
+							<option value="">195/112A/XXXL</option>
+						</select>
+					</li>
+					<li id="new_tops" class="goods_tisl">
+						<input type="number" name="" id="number" value="" />
+						库存<span id="set">0</span>件
+					</li>
+					<li id="new_tops" class="goods_tisl">￥20</li>
+					<li id="new_tops" class="goods_tisl"><span id="allpric">￥20</span></li>
+				</div>
+				<button id="delete">从购物车中移除</button>
+			</div>
+			<div id="new_bot">
+				<a href="allgoods.html"><button id="goon">继续购物</button></a>
+				<p>商品总金额：     RMB   ￥<span id="countsa">0</span></p>
+				<p>应付金额：     RMB   ￥<span id="countsa1">0</span></p>
+				<p>花费的积分：     PTS   ￥<span id="countsa2">0</span></p>
+				<button id="goon1">结算</button>
+				
+			</div>
+		</div>
+		<bottom></bottom>
+		<script>
+			$('header').load("header.html");
+			$('bottom').load("bottom.html" );
+			
+		</script>
+	</body>
+</html>

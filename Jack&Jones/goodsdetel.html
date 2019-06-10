@@ -1,0 +1,250 @@
+<!DOCTYPE html> 
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>商品详情</title>
+		<link rel="stylesheet" type="text/css" href="css/header.css"/>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="css/demo.css"/>
+		<link rel="stylesheet" type="text/css" href="css/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="css/bottom.css"/>
+		<link rel="stylesheet" type="text/css" href="css/login.css"/>
+		<link rel="stylesheet" type="text/css" href="css/goodsdetel.css"/>
+		<style>
+		</style>
+		<script src="js/jquery.js" ></script>
+	</head>
+	<body>
+		<header></header>
+		<div id="top_add">首页/所有商品/商品详情</div>
+		<div id="goods_abox">
+			<div id="goods_spic" class="ot">
+				<ui class="otl">
+					<li class="ots" id="ots1"> </li>
+					<li class="ots" id="ots2"></li>
+					<li class="ots" id="ots3"></li>
+				</ui>
+			</div>
+			<div id="goods_pic" >
+				<img src="img/218357507E37_p1.jpg"/>
+				<div id="sbox"><span style="font-size: 100px;color: #00BFFF;"class="iconfont" id="fada">&#xe71a;</span></div>
+				<div id="goods_bpic" class="bpicbox">
+					<img src="img/218357507E37_p1.jpg" id="b"/>
+				</div>
+			</div>
+			<div id="goods_inf"></div>
+			<div id="goods_r"></div>
+		</div>
+		<div id="all">
+			<div id="left_mune">
+					<div id="tittles1" class="tittles"><b>新品到店</b></div>
+					<ul id="news" class="intrs">
+						<li id="news1" class="intr"><a href="">全部-新品到店</a></li>
+						<li id="news2" class="intr"><a href="">1月13日上新</a></li>
+						<li id="news3" class="intr"><a href="">1月8日上新</a></li>
+						<li id="news4" class="intr"><a href="">1月4日上新</a></li>
+						<li id="news5" class="intr"><a href="">1月1日上新</a></li>
+						<li id="news6" class="intr"><a href="">12月28日上新</a></li>
+						<li id="news7" class="intr"><a href="">12月23日上新</a></li>
+						<li id="news8" class="intr"><a href="">12月19日上新</a></li>
+						<li id="news9" class="intr"><a href="">12月12日上新</a></li>
+						<li id="news0" class="intr"><a href="">12月7日上新</a></li>
+						<li id="news10" class="intr"><a href="">12月4日上新</a></li>
+						<li id="news11" class="intr"><a href="">11月30日上新</a></li>
+					</ul>
+					<div id="tittles1" class="tittles"><b>商场同款新降5折起</b></div>
+					<ul id="intrs1" class="intrs">
+						<li class="intr">全部-商场同款新降5折起</li>
+						<li class="intr">五折专区</li>
+						<li class="intr">七折专区</li>
+						<li class="intr">五折羽绒服/棉服</li>
+						<li class="intr">五折毛呢大衣</li>
+						<li class="intr">五折牛仔裤</li>
+						<li class="intr">五折针织衫</li>
+						<li class="intr">五折外套</li>
+						<li class="intr">五折休闲裤</li>
+						<li class="intr">五折衬衫</li>
+						<li class="intr">五折卫衣</li>
+						<li class="intr">五折鞋靴</li>
+						<li class="intr">五折配饰</li>
+					</ul>	
+					<div id="tittles2" class="tittles"><b>线上专享款</b></div>
+					<ul id="intrs2" class="intrs">
+						<li class="intr">全部-线上专享款</li>
+						<li class="intr">全部专享款</li>
+						<li class="intr">五折专区</li>
+					</ul>
+					<div id="tittles3"class="tittles"><b>羽绒服/棉服</b></div>
+					<ul id="intrs2" class="intrs">
+						<li class="intr">全部-羽绒服/棉服</li>
+						<li class="intr">羽绒服</li>
+						<li class="intr">棉服</li>
+					</ul>
+					<div class="tittles"><b>毛呢大衣</b></div>
+					<ul id="intrs3" class="intrs">
+						<li class="intr">全部-毛呢大衣</li>
+						<li class="intr">精选毛呢</li>
+					</ul>
+					<div class="tittles"><b>外套</b></div>
+					<ul id="intrs2" class="intrs">
+						<li class="intr">全部-外套</li>
+						<li class="intr">牛仔/夹克外套</li>
+						<li class="intr">长款外套</li>
+					</ul>
+					<div class="tittles"><b>针织衫</b></div>
+					<ul id="intrs3" class="intrs">
+						<li class="intr">全部-针织衫</li>
+						<li class="intr">内搭针织衫</li>
+					</ul>	
+					<div class="tittles"><b>牛仔裤</b></div>
+					<ul id="intrs4" class="intrs">
+						<li class="intr">全部-牛仔裤</li>
+						<li class="intr">含莱卡弹力牛仔裤</li>
+						<li class="intr">锥腿牛仔裤</li>
+						<li class="intr">轻薄牛仔裤</li>
+					</ul>	
+					<div class="tittles"><b>休闲裤</b></div>
+					<ul id="intrs2" class="intrs">
+						<li class="intr">全部-休闲裤</li>
+						<li class="intr">轻薄休闲裤</li>
+						<li class="intr">含莱卡弹力休闲裤</li>
+					</ul>		
+					<div class="tittles"><b>卫衣</b></div>
+					<ul id="intrs3" class="intrs">
+						<li class="intr">全部-卫衣</li>
+						<li class="intr">潮流卫衣</dd>
+					</ul>
+					<div class="tittles"><b>衬衫</b></div>
+					<ul id="intrs4" class="intrs">
+						<li class="intr">全部-衬衫</li>
+						<li class="intr">格纹/条纹衬衫</li>
+						<li class="intr">纯色/牛仔衬衫</li>
+						<li class="intr">短袖衬衫</li>
+					</ul>
+					<div class="tittles"><b>西服</b></div>
+					<ul id="intrs3" class="intrs">
+						<li class="intr">全部-西服</li>
+						<li class="intr">格调西服</li>
+					</ul>
+					<div class="tittles"><b>皮衣/PU</b></div>
+					<ul id="intrs5" class="intrs">
+						<li class="intr">全部-皮衣/PU</li>
+					</ul>
+					<div class="tittles"><b>男鞋</b></div>
+					<ul id="intrs2" class="intrs">
+						<li class="intr">全部-男鞋</li>
+						<li class="intr">休闲运动鞋</li>
+						<li class="intr">板鞋</li>
+					</ul>
+					<div class="tittles"><b>配饰</b></div>
+					<ul id="intrs6" class="intrs">
+						<li class="intr">全部-配饰</li>
+						<li class="intr">内裤/袜子</li>
+						<li class="intr">腰带/皮带</li>
+						<li class="intr">背包/提包</li>
+						<li class="intr">帽子</li>
+						<li class="intr">围巾</li>
+						<li class="intr">手套</li>
+						<li class="intr">太阳镜/眼镜</li>
+						<li class="intr">领带/领结</li>
+					</ul>
+					<div class="tittles"><b>产品系列</b></div>
+					<ul id="intrs7" class="intrs">
+						<li class="intr">全部-产品系列</li>
+						<li class="intr">MLMR系列</li>
+						<li class="intr">Core系列</li>
+						<li class="intr">Essential系列</li>
+						<li class="intr">Jeans系列</li>
+					</ul>
+					<div class="tittles"><b>2018足球俱乐部系列</b></div>
+					<ul id="intrs5" class="intrs">
+						<li class="intr">全部-2018足球俱乐部系列</li>
+					</ul>
+			</div>
+			<div id="detel">
+				<ul>
+					<li><img src="img/detes_1.png"/></li>
+					<li><img src="img/detes_2.png"/></li>
+					<li><img src="img/detes_3.png"/></li>
+					<li><img src="img/detes_4.png"/></li>
+					<li><img src="img/detes_5.png"/></li>
+				</ul>
+			</div>
+			<div id="detels"></div>
+				
+			
+		</div>	
+		<bottom></bottom>
+	</body>
+		<script>
+			$('header').load("header.html");
+			$('bottom').load("bottom.html" );
+			var otitles = document.getElementsByClassName('tittles')
+			var ointrs = document.getElementsByClassName('intrs')
+			var otitles1 = document.getElementById('tittles1')
+			var ointr = document.getElementById('intrs1')
+			for (var i = 0;i<otitles.length;i++) {
+				bind(i);
+			}
+			function bind (index) {
+				otitles[index].onclick =function  () {
+					if (ointrs[index].style.display =='block'  ){
+						ointrs[index].style.display =  'none'
+						
+					} else{
+						ointrs[index].style.display ='block'
+					}
+				}
+			}
+			var ots = document.getElementsByClassName('ots')
+			var ots1 = document.getElementsByClassName('ots1')
+			var ots1s = document.getElementsByClassName('ots1s')
+			var oimg = document.getElementsByTagName('img')
+			for (var i = 0;i<ots.length;i++) {
+					band(i);
+				}
+				function band (index) {
+					ots[index].onclick =function  () {
+						inow = index;
+						changepic(index);
+					}
+				}
+				function changepic(index) {
+					for (var j = 0;j<ots1.length;j++){
+						ots1[j].style.opacity = 0 ;
+						ots1s[j].style.opacity = 0 ;
+						if (j==index){
+							ots1[index].style.opacity = 1 ;
+							ots1s[index].style.opacity = 1 ;
+						}
+					}
+				}
+			$('#goods_pic').mousemove(function (event) {
+				var nowleft = Math.floor( event.clientX - $('#goods_pic').offset().left-50)
+				var nowtop = event.clientY - $('#goods_pic').offset().top-50
+				if(nowleft<0){
+					nowleft=0
+				}
+				if (nowleft>308) {
+					nowleft=308
+				}
+				if (nowtop<0) {
+					nowtop=0
+				}
+				if (nowtop>396) {
+					nowtop=396
+				}
+				$('#sbox').css({
+					'left':nowleft,
+					'top':nowtop
+				})
+				$('#b').css({
+					'left':-nowleft*3.3,
+					'top':-nowtop*3
+				})
+			})	
+		</script>
+	
+	
+</html>
